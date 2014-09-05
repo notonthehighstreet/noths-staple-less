@@ -1,0 +1,13 @@
+{
+  "name": "noths-staple-less",
+  "version": "0.0.1",
+  "description": "NOTHS Less Framework",
+  "author": "notonthehighstreet.com",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/notonthehighstreet/noths-staple-less.git"
+  },
+  "dependencies": {
+    "fluid-grid": "git://github.com/danhart/fluid-grid.git#0dc93a21dd55b2ebf0c141dc2382ccd13e3cb1bc"
+  }
+}
