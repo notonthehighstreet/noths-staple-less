@@ -90,10 +90,17 @@
         order:@value;
     }
 
-
-
-
-
+    /*  Underline mixin
+    -----------------------------------------------------------
+    Uses background to simulate underline
+    Not supported < IE10
+    */
+    .underline(@colour) {
+        background: linear-gradient(@colour, @colour) no-repeat;
+        background-size: 100% 1px;
+        background-position: 0 1em;
+        text-shadow: .1em 0 white, -.1em 0 white;
+    }
 
     /* -  Transform mixins
     ------------------------------------------------------------------
